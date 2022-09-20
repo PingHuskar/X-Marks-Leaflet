@@ -1,0 +1,31 @@
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.leaflet-container {
+  height: 2000px;
+  width: 3000px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#map {
+  height: 100vh;
+}
+#map .leaflet-popup-content {
+  min-width: 30vw;
+  min-height: 10vh;
+}
+#map .leaflet-popup-content:hover {
+  font-size: 1.5em;
+  text-decoration: underline;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
